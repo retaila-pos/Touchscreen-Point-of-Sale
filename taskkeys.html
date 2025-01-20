@@ -1,0 +1,17 @@
+<div class="task-keys-grid">
+  <button class="task-key" data-value="item" onclick="processTask(event);">Add Item</button>
+  <button class="task-key" data-value="barcode" onclick="processTask(event);">Add Barcode</button>
+  <button class="task-key" data-value="price" onclick="processTask(event);">Change Price</button>
+  <button class="task-key" data-value="promo" onclick="processTask(event);">Start Promo</button>
+  <button class="task-key" data-value="product" onclick="processTask(event);">Update Products</button>
+  <button class="task-key" data-value="mobile" onclick="showMobileQR();">Go Mobile</button>
+  <button class="task-key btn-danger" data-value="help" onclick="processTask(event);">Call HELP</button>
+  <button class="task-key btn-danger" data-value="eod" onclick="processTask(event);">End Shift</button>
+  <button class="task-key" style="font-weight:bold;background:#d9822b;" onclick="toggleTheme();">Toggle Theme</button>
+</div>
+
+<script>
+        #qrPOS {
+            display: none; /* Initially hide the image */
+        }
+</script>

@@ -1,0 +1,52 @@
+.header {
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  padding-left: 20px;
+  background-color: #138496;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.footer {
+  height:50px;
+  color: white;
+box-shadow: 0 -5px 10px rgba(0,0,0,0.1), 0 -3px 3px rgba(0,0,0,0.12);
+}
+
+.footer .row {
+    justify-content: space-between;
+}
+
+.footer .col:last-child {
+    text-align: right;
+}
+
+
+.btn-footer {
+	margin-top: 5px;
+}
+
+#live-clock {
+	font-weight:bold;
+	margin-top:15px;
+	color:#555;
+	float:right;
+}
+
+.fastkey10 {
+	  background-color: #08755f;
+}
+
+.fastkey14 {
+	  background-color: green;
+}
+.fastkey19 {
+	  background-color: #08755f;
+}
+.fastkey20 {
+	  background-color: #08755f;
+}
+.fastkey21 {
+	  background-color: #08755f;
+}
